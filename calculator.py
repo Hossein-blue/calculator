@@ -1,16 +1,16 @@
 while True:
-    num1=int(input('pleas Enter your number1:'))
-    num2=int(input('pleas Enter your number2:'))
-    myop=(input('pleas Enter your operator:'))
+    Num1=int(input('pleas Enter your number1:'))
+    Num2=int(input('pleas Enter your number2:'))
+    Myop=(input('pleas Enter your operator:'))
     def calculator():
-        if myop=='+':
-            print(num1+num2)
-        elif myop=='-':
-            print(num1-num2)
-        elif myop=='*':
-            print(num1*num2)
-        elif myop=='/':
-            print(num1/num2)
+        if Myop=='+':
+            print(Num1+Num2)
+        elif Myop=='-':
+            print(Num1-Num2)
+        elif Myop=='*':
+            print(Num1*Num2)
+        elif Myop=='/':
+            print(Num1/Num2)
         else:
             print('your operator is wromg!!! ')
     calculator()
